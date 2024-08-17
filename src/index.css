@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --neon-blue: #00f9ff;
+  --neon-yellow: #fff700;
+  --neon-green: #39ff14;
+  --neon-dark: #191442;
+}
+
+.bg-neon-dark {
+  background-color: var(--neon-dark);
+}
+
+.text-neon-blue {
+  color: var(--neon-blue);
+}
+
+.border-neon-blue {
+  border-color: var(--neon-blue);
+}
+
+.bg-neon-yellow {
+  background-color: var(--neon-yellow);
+}
+
+.bg-neon-green {
+  background-color: var(--neon-green);
+}
